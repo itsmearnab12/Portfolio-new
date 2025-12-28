@@ -1,5 +1,11 @@
+.Homepage{
+    margin: 30px 150px;
+    display: flex;
+
+}
 .HomepageRightsec {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 3rem;
 }
 
 .HomepageRightsec span {
@@ -17,4 +23,27 @@
     color: gray;
     font-size: 15px;
     font-weight: 100;
+}
+
+.HomepageRightsec button{
+    padding: 10px;
+    border-radius: 10px;
+}
+.Resumebutton{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: black;
+}
+.Myworkbutton{
+    background-color: black;
+    color: gray;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.HomepageRightsec button:hover{
+    cursor: pointer;
+}
+.HomepageLeftsec img{
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 70px;
 }
