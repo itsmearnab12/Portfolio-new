@@ -1,15 +1,21 @@
-.Homepage{
+.Homepage {
     margin: 30px 150px;
     display: flex;
 
 }
+
 .HomepageRightsec {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 3rem;
+    margin-top: 6vh;
 }
 
 .HomepageRightsec span {
     color: gray;
+}
+
+.HomepageRightsec h1 {
+    font-size: 4rem;
+    line-height: 3.7rem;
 }
 
 .HomepageRightsec h5 {
@@ -17,32 +23,57 @@
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 15px;
     font-weight: 100;
+    margin-bottom: 1rem;
 }
 
-.HomepageRightsec h4{
+.HomepageRightsec h4 {
     color: gray;
     font-size: 15px;
     font-weight: 100;
+    margin: 2rem 25vw 2rem 0;
 }
 
-.HomepageRightsec button{
+.Button {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.HomepageRightsec button {
     padding: 10px;
     border-radius: 10px;
 }
-.Resumebutton{
+
+.Resumebutton {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     color: black;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: 150px;
 }
-.Myworkbutton{
+
+.Myworkbutton {
     background-color: black;
     color: gray;
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 150px;
 }
 
-.HomepageRightsec button:hover{
+.Myworkbutton:hover{
+    background-color: rgb(21, 21, 21);
+}
+
+.HomepageRightsec button:hover {
     cursor: pointer;
 }
-.HomepageLeftsec img{
+
+.HomepageLeftsec img {
     height: 350px;
     border-radius: 20px;
     margin-top: 70px;
