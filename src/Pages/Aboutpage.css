@@ -1,0 +1,20 @@
+.Aboutpage{
+    margin: 30px 150px;
+}
+.Aboutpage h5{
+    color: gray;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+.Aboutme h3{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0 0 15px 0;
+}
+.Aboutme {
+    margin: 30px 100px;
+}
