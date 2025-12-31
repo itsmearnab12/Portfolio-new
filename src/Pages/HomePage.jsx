@@ -23,7 +23,7 @@ export function HomePage() {
                     <h1>
                         <Hero />
                     </h1>
-                    <h4>I’m a third-year BCA (Hons.) student at Parul University with a strong interest in software development. I enjoy turning ideas into real-world applications and have a growing passion for working with data.</h4>
+                    <h4>I’m a Arnab third-year BCA (Hons.) student at Parul University with a strong interest in software development. I enjoy turning ideas into real-world applications and have a growing passion for working with data.</h4>
                     <div className="Button">
                         <button className="Resumebutton"><IoDocumentTextOutline />View Resume</button>
                         <button onClick={() => navigate("/Project")} className="Myworkbutton">My Work <FaArrowRightLong /></button>
@@ -49,6 +49,9 @@ export function HomePage() {
                 <div>
                     <a href="">Know more about me <FaArrowRightLong /> </a>
                 </div>
+            </div>
+            <div className="Projectpage">
+
             </div>
         </>
     ); 
