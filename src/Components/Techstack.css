@@ -1,0 +1,14 @@
+.Techstack{
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center;
+    gap: 30px;
+    margin: 100px 100px;
+}
+.Techstack i{
+    font-size: 45px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(20, 20, 20, 0.6);;
+}

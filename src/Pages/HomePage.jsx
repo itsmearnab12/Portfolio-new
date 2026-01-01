@@ -8,6 +8,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FiMail } from "react-icons/fi";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoDocumentTextOutline } from "react-icons/io5";
+import { Techstack } from "../Components/Techstack";
 
 export function HomePage() {
 
@@ -52,6 +53,9 @@ export function HomePage() {
             </div>
             <div className="Projectpage">
 
+            </div>
+            <div>
+                <Techstack />
             </div>
         </>
     ); 
