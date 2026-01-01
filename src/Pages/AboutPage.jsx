@@ -4,7 +4,7 @@ export function AboutPage() {
         <>
             <div className="Aboutpage">
                 <h5>-About Page</h5>
-                <h1>A Journary from knowing about coding to learing and building</h1>
+                <h1>A Journary from knowing nothing about coding to learing and building</h1>
                 <div className="Aboutme">
                     <h3>My journey into programming began with curiosity and perseverance. Until my higher studies, I had no prior exposure to coding. I started with C programming, which initially challenged me but helped me build a strong foundation in logic and problem-solving. I later moved on to Java, further strengthening my understanding of core programming concepts.</h3>
                 </div>
