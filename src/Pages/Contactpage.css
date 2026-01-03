@@ -1,0 +1,19 @@
+.contactpage {
+    margin: 70px 150px;
+}
+
+.contactpage h1 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactpage h5 {
+    color: gray;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
