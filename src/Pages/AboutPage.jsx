@@ -11,13 +11,30 @@ export function AboutPage() {
 
                 <div className="Aboutme">
                     <h3>
-                       As I discovered web development, I learned HTML, CSS, and JavaScript and realized that real growth comes from building, not just watching tutorials. This led me to modern frontend development with React, where I learned to create dynamic, component-based user interfaces. To complement this, I explored backend technologies like Node.js and Express.js, gaining an understanding of APIs, server-side logic, and full-stack application flow. Today, I focus on building full-stack projects that turn ideas into real-world solutions, continuously learning by experimenting, solving problems, and improving my craft.
+                        As I discovered web development, I learned HTML, CSS, and JavaScript and realized that real growth comes from building, not just watching tutorials. This led me to modern frontend development with React, where I learned to create dynamic, component-based user interfaces. To complement this, I explored backend technologies like Node.js and Express.js, gaining an understanding of APIs, server-side logic, and full-stack application flow. Today, I focus on learning and building full-stack projects that turn ideas into real-world solutions, continuously learning by experimenting, solving problems, and improving my craft.
                     </h3>
                 </div>
 
                 <div className="Aboutme">
                     <h3>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. A fugit eveniet commodi nobis libero nam eligendi nulla laborum. Illo corporis ab quibusdam laudantium velit vel, eaque porro repellat asperiores, voluptatibus perferendis natus ad. Cumque molestiae eveniet id doloribus, eaque expedita facilis iusto, ea amet qui possimus maiores fuga. Sunt at praesentium dolore, odit quidem est.
+                    </h3>
+                </div>
+                <h5>-Why me?</h5>
+                <h2>What I Bring to the Table</h2>
+                <div className="Aboutme">
+                    <h3>
+                        I don’t just aim for working solutions—I focus on clean design, clear structure, and intuitive interactions. My goal is to deliver interfaces that feel polished, purposeful, and easy to use.
+                    </h3>
+                </div>
+                <div className="Aboutme">
+                    <h3>
+                        I prioritize learning how things work before using tools or libraries, which allows me to write maintainable, scalable code and adapt quickly to new technologies across the full stack.
+                    </h3>
+                </div>
+                <div className="Aboutme">
+                    <h3>
+                        I actively refine my projects by revisiting design decisions, optimizing performance, and improving clarity. This iterative mindset helps me deliver better results and grow consistently as a developer.
                     </h3>
                 </div>
             </div>

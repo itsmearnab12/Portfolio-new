@@ -8,6 +8,7 @@
     font-size: 15px;
     margin-bottom: 10px;
     font-weight: 100;
+    margin-left: 150px;
 }
 
 .Aboutpage h1{
@@ -28,4 +29,12 @@
 
 .Aboutme {
     margin: 30px 150px;
+}
+.Aboutpage h2 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 25px 151px;
+    font-size: 2rem;
 }

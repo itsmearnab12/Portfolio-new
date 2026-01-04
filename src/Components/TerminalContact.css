@@ -1,0 +1,61 @@
+.terminal-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.terminal {
+  width: 100%;
+  max-width: 800px;
+  background: #0b0f14;
+  border-radius: 12px;
+  padding: 20px;
+  color: #9effa1;
+  font-family: "Consolas", "Courier New", monospace;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.terminal-line {
+  line-height: 1.6;
+  margin-bottom: 4px;
+}
+
+.terminal-input {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.prompt {
+  margin-right: 8px;
+}
+
+.terminal-input input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #9effa1;
+  font-family: inherit;
+  font-size: 1rem;
+  width: 100%;
+  caret-color: #9effa1;
+}
+
+/* Blinking cursor feel */
+.terminal-input input::after {
+  content: "|";
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .terminal {
+    font-size: 0.9rem;
+  }
+}
