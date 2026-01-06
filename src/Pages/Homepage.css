@@ -127,11 +127,12 @@
 }
 
 .Aboutpage a{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: gray;
+    color: rgb(117, 117, 222);
     gap: 10px;
 }
 
@@ -154,4 +155,10 @@
     justify-content: center;
     margin: 35px 20px;
     font-size: 2rem; 
+}
+.project-cards {
+    display: flex;
+    justify-content: center; /* or flex-start */
+    gap: 30px;
+    margin-top: 40px;
 }

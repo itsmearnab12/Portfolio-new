@@ -1,23 +1,35 @@
 .Project-card {
-    border: 1px solid gray;
-    max-width: 30vw;
-    height: 300px;
-    border-radius: 20px;
-    padding: 30px;
+    min-height: 340px;
+    max-width: 270px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(10px);
 }
 
-.Project-card h3{
-    font-size: 2rem;
-    margin: 0 0 15px 0;
+.Project-card a {
+    border: 1px solid white;
 }
 
-.Project-card p{
+.Project-card h5 {
+    margin: 10px 0 10px 0;
+}
+
+.Project-card p {
+    margin: 10px 0 10px 0;
     color: gray;
-    font-size: 15px;
-    font-weight: 100;
 }
 
-.Project-card .tech{
-    border: 1px soild gray;
+.card-links {
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
+}
+.card-links a {
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+    border-radius: 10px;
 }

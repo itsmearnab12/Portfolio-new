@@ -1,12 +1,15 @@
+import { IoDocumentTextOutline } from "react-icons/io5";
 import "./Aboutpage.css"
 export function AboutPage() {
     return (
         <>
-            <div className="Aboutpage">
+            <div className="AboutPage">
                 <h5>-About Me</h5>
                 <h1>A Journary from knowing nothing about coding to learing and building...</h1>
                 <div className="Aboutme">
-                    <h3>My journey into programming began with curiosity and perseverance. Until my higher studies, I had no prior exposure to coding. I started with C programming, which initially challenged me but helped me build a strong foundation in logic and problem-solving. I later moved on to Java, further strengthening my understanding of core programming concepts.</h3>
+                    <h3>
+                        My journey into programming began with curiosity and perseverance. Until my higher studies, I had no prior exposure to coding. I started with C programming, which initially challenged me but helped me build a strong foundation in logic and problem-solving. I later moved on to Java, further strengthening my understanding of core programming concepts.
+                    </h3>
                 </div>
 
                 <div className="Aboutme">
@@ -37,6 +40,7 @@ export function AboutPage() {
                         I actively refine my projects by revisiting design decisions, optimizing performance, and improving clarity. This iterative mindset helps me deliver better results and grow consistently as a developer.
                     </h3>
                 </div>
+                <button className="Resume"><IoDocumentTextOutline />View Resume</button>
             </div>
 
         </>

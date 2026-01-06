@@ -1,8 +1,8 @@
-.Aboutpage {
+.AboutPage {
     margin: 70px 150px;
 }
 
-.Aboutpage h5 {
+.AboutPage h5 {
     color: gray;
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 15px;
@@ -11,7 +11,7 @@
     margin-left: 150px;
 }
 
-.Aboutpage h1{
+.AboutPage h1{
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     display: flex;
     align-items: center;
@@ -30,11 +30,23 @@
 .Aboutme {
     margin: 30px 150px;
 }
-.Aboutpage h2 {
+.AboutPage h2 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     margin: 25px 151px;
     font-size: 2rem;
+}
+
+.Resume{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
 }
