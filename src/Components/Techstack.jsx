@@ -4,6 +4,7 @@ export function Techstack() {
         <>
             <div className="TollsandTech">
                 <h5>- My Skills & Technologies</h5>
+                <h2>"Technologies and skills I use to build efficient, scalable, and modern applications."</h2>
                 <div className="Techstack">
                     <i class="devicon-react-original colored"></i>
                     <i class="devicon-javascript-plain colored"></i>
