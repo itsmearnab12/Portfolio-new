@@ -203,3 +203,30 @@
     margin-top: 60px;
     margin-bottom: 40px;
 }
+
+.stats-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+}
+
+.stat-box {
+    padding: 30px 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stat-box:last-child {
+    border-right: none;
+}
+
+.stat-box h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.stat-box p {
+    font-size: 15px;
+    color: #9ca3af;
+}

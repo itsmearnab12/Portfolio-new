@@ -37,6 +37,22 @@ export function HomePage() {
                             <a href="mailto:arnabchoudhury2005@gmail.com" target="_blank"><FiMail /></a>
                             <a href="https://x.com/itsarnab12" target="_blank"><FaSquareXTwitter /></a>
                         </div>
+                        <section className="stats-section">
+                            <div className="stat-box">
+                                <h2>2+</h2>
+                                <p>Project Complete</p>
+                            </div>
+
+                            <div className="stat-box">
+                                <h2>4+</h2>
+                                <p>Github stars</p>
+                            </div>
+
+                            <div className="stat-box">
+                                <h2>125+</h2>
+                                <p>GitHub Contributions</p>
+                            </div>
+                        </section>
                     </div>
                     <div className="HomepageLeftsec">
                         <img src={Profile} alt="Profile" />
