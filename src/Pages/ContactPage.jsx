@@ -1,23 +1,21 @@
 import "./Contactpage.css"
-import { FaHandshake } from "react-icons/fa6";
-import Profile from "../assets/Profile.jpeg";
+
 export function ContactPage() {
     return (
         <>
             <div className="contactpage">
                 <h5>- Get in Touch</h5>
-                <div className="Contactprofile">
-                    <img src={Profile} alt="Profile" className="center-img" />
-                </div>
-                <h1>Open to learning opportunities and collaborations <FaHandshake /></h1>
-                <div class="status">
-                    <span class="dot"></span>
-                    <span class="text">Available to work</span>
-                </div>
-                <div className="Contact">
-                    <i class="devicon-linkedin-plain colored"></i>
-                    <i class="devicon-github-original"></i>
-                    <i class="devicon-twitter-original"></i>
+                <h2>Have a Project in Mind?</h2>
+                <h4>From building clean user interfaces to crafting engaging web experiences, I’m always excited to work on meaningful projects. Let’s talk.</h4>
+                <div className="contactsection">
+                    <div>
+                        <button>Linkedin</button>
+                        <button>Whatapp</button>
+                    </div>
+                    <div>
+                        <button>Twitter</button>
+                        <button>Email</button>
+                    </div>
                 </div>
             </div>
         </>
