@@ -11,6 +11,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { Techstack } from "../Components/Techstack";
 import { HiMiniArrowTurnDownRight } from "react-icons/hi2";
+import { LuMessageSquareText } from "react-icons/lu";
 
 
 export function HomePage() {
@@ -131,6 +132,22 @@ export function HomePage() {
                         </h3>
                     </div>
                 </div>
+            </section>
+            <section className="section Contactpage">
+                <h2>
+                    Let’s Build Something Meaningful Together
+                </h2>
+                <h4>
+                    Have an idea, a project, or an opportunity in mind? I’m always open to discussing new work, collaborations, or just having a friendly conversation.
+                </h4>
+                <div className="Buttons">
+                    <button className="btn"><IoDocumentTextOutline /><span>View Resume</span></button>
+                    <button className="btn Msgbutton" onClick={()=> navigate("/Contact")}><LuMessageSquareText /><span>Send Me Message</span></button>
+                </div>
+                <span class="Working-status">
+                    <span class="Available"></span>
+                    <span class="Available-text">Available to work</span>
+                </span>
             </section>
         </>
     );

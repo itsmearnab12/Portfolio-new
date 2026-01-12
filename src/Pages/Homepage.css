@@ -277,3 +277,74 @@
     padding-bottom: 200px;
     margin: 0 170px;
 }
+
+.Contactpage.section{
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.Contactpage h2 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.Contactpage h4 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: center;
+    margin: 20px 400px 0 400px;
+    font-weight: 300;
+    color: gray;
+}
+
+.Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 1.5rem;
+}
+
+.Buttons button {
+    padding: 10px;
+    border-radius: 10px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Msgbutton {
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.Msgbutton:hover {
+    background-color: rgb(21, 21, 21);
+}
+.btn{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.Working-status {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(100, 222, 100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+}
+
+.Available {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #22c55e;
+    animation: pulse 1.5s infinite;
+}
