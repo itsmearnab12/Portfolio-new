@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
 import { Header } from './Components/Header';
-
 import { HomePage } from './Pages/HomePage';
 import { AboutPage } from './Pages/AboutPage';
 import { ProjectPage } from './Pages/ProjectPage';
@@ -10,7 +9,6 @@ import { ContactPage } from './Pages/ContactPage';
 import './App.css'
 
 function App() {
-
   return (
     <>
       <Header />

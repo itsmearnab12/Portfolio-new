@@ -142,12 +142,14 @@ export function HomePage() {
                 </h4>
                 <div className="Buttons">
                     <button className="btn"><IoDocumentTextOutline /><span>View Resume</span></button>
-                    <button className="btn Msgbutton" onClick={()=> navigate("/Contact")}><LuMessageSquareText /><span>Send Me Message</span></button>
+                    <button className="btn Msgbutton" onClick={() => navigate("/Contact")}><LuMessageSquareText /><span>Send Me Message</span></button>
                 </div>
-                <span class="Working-status">
-                    <span class="Available"></span>
-                    <span class="Available-text">Available to work</span>
-                </span>
+                <div class="working-wrapper">
+                    <span class="Working-status">
+                        <span class="Available"></span>
+                        <span class="Available-text">Available to work</span>
+                    </span>
+                </div>
             </section>
         </>
     );

@@ -1,5 +1,5 @@
 .contactpage {
-    margin: 30px 150px;
+    margin: 50px 150px;
 }
 
 .contactpage h5 {
@@ -25,44 +25,29 @@
     margin: 20px 300px;
 }
 
-.contactsection {
+.contactsection{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.contactsection a{
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    font-size: 35px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    padding: 30px 0 30px 0;
-    margin: 60px 180px;
-    background: rgba(20, 20, 20, 0.6);
-    border-radius: 10px;
+    transition: transform 0.35s ease-in-out,
+                box-shadow 0.35s ease-in-out,
+                background-color 0.35s ease-in-out;
 }
 
-.contactsection>div {
-    display: flex;
-    gap: 12px;
+.contactsection a:hover{
+    transform: scale(1.15);
 }
-
-.contactsection p{
-    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
-    font-weight: 300;
-    color: gray;
-}
-
-.contactsection button{
-    padding: 15px;
-    width: 400px;
-    border-radius: 5px;
-    background-color: black;
-    color: gray;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.contactsection button:hover{
-    cursor: pointer;
-    background-color: rgb(21, 21, 21);
-}
-
