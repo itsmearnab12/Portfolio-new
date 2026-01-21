@@ -12,7 +12,7 @@ export function ProjectPage() {
                 <div className="projects-grid">
                     <ProjectCard
                         title="CHAT APP"
-                        description="This Chat Application is a full-stack project built with React, Node.js, Express.js, and Tailwind CSS, enabling real-time communication through a clean and responsive interface. It focuses on frontend–backend integration, RESTful APIs, and modern UI design as a hands-on learning project."
+                        description="This Chat Application Website enabling real-time communication through a clean and responsive interface."
                         tech={["React", "Tailwind", "Node.js", "Express.js", "Socket.io"]}
                         live="https://lnkd.in/g4KUKk9d"
                         github="https://lnkd.in/gyG5H5mK"

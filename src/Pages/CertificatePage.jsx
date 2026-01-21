@@ -1,7 +1,13 @@
-export function CertificatePage(){
-    return(
+import CertificateSlider from "../Components/CertificateSlider";
+import "./Certificatepage.css"
+
+export function CertificatePage() {
+    return (
         <>
-            Certificate Page
+            <div className="Certificatehead">
+                <h2>My Certifcate</h2>
+                <CertificateSlider />
+            </div>
         </>
     );
 }
