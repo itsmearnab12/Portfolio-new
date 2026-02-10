@@ -444,8 +444,7 @@
     }
 
     .stat-box {
-        border-top: none;
-        border-top: 1px solid rgba(133, 133, 133, 0.566);
+        border-top: 1px solid rgb(189, 189, 189);
     }
 
     .stat-box h2 {
