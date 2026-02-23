@@ -47,6 +47,7 @@
     margin: 30px 0;
     font-weight: 100;
     color: gray;
+    font-size: 18px;
 }
 
 @media (max-width: 768px) {
@@ -65,13 +66,13 @@
     }
 
     .TollsandTech> :nth-child(2) {
-        margin: 10px;
-        font-size: 1.5rem;
+               margin: 10px;
+        font-size: 2.2rem;
     }
 
     .TollsandTech> :nth-child(3) {
-        color: gray;
-        font-size: 15px;
+       color: gray;
+        font-size: 18px;
         margin: 20px 10px;
         font-weight: 300;
     }

@@ -22,7 +22,7 @@
 .Aboutme h3 {
     font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
     color: gray;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 100;
     margin: 0 0 15px 0;
 }
@@ -59,24 +59,29 @@
         margin: 60px 20px;
     }
 
+    .Aboutme h3 {
+        font-size: 18px;
+    }
+
     .AboutPage h5 {
-        text-align: left;
+                text-align: left;
         margin: 30px 10px;
+        font-size: 18px;
     }
 
     .AboutPage h1 {
-        margin: 20px 10px;
-        font-size: 1.5rem;
+                margin: 20px 10px;
+        font-size: 2.2rem;
         text-align: left;
     }
 
-    .Aboutme{
+    .Aboutme {
         margin: 10px 10px;
     }
 
-    .AboutPage h2{
+    .AboutPage h2 {
         margin: 20px 10px;
-        font-size: 1.5rem;
+        font-size: 2.2rem;
         text-align: left;
     }
 

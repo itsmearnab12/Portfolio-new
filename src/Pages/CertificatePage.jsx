@@ -14,7 +14,7 @@ const CertficateData = [
     issuer: "Google",
     issueDate: "December 31, 2024",
     image: cert1,
-    skills: ["Spreadsheet", "Data Analysis", "SQL", "Data Visualization", "Data Cleaning"],
+    skills: ["Data Analysis", "Data Ethics", "Analytical Skills", "SQL", "Data Visualization Software", "Business Analytics", "Data Processing", "Tableau Software", "Data-Driven Decision-Making", "Data Cleansing", "Data Visualization", "Data Sharing"],
     link: "https://www.coursera.org/account/accomplishments/verify/9BQYMGK2LFKN"
   },
   {
@@ -23,7 +23,7 @@ const CertficateData = [
     issuer: "Google",
     issueDate: "January 13, 2025",
     image: cert2,
-    skills: ["Decision-Making", "Spreadsheet", "Data Analysis", "Problem Solving", "Questioning"],
+    skills: ["Data-Driven Decision-Making", "Smart Goals", "Expectation Management", "Business Analysis", "Quantitative Research", "Analytical Skills", "Data Analysis", "Data Literacy", "Problem Solving", "Dashboard", "Stakeholder Communications", "Spreadsheet Software"],
     link: "https://www.coursera.org/account/accomplishments/verify/0DHW98CZCW0H"
   },
   {
@@ -32,7 +32,7 @@ const CertficateData = [
     issuer: "Google",
     issueDate: "Feburary 15, 2025",
     image: cert3,
-    skills: ["Spreadsheet", "SQL", "Meta data", "Data Ethics", "Data Collection"],
+    skills: ["SQL", "Data Management", "Data Collection", "Google Sheets", "Data Storage", "Data Analysis", "Data Security", "Data Import/Export", "Unstructured Data", "Data Literacy", "Metadata Management", "Data Ethics"],
     link: "https://www.coursera.org/account/accomplishments/verify/W4BJM35AK1RK"
   },
   {
@@ -41,7 +41,7 @@ const CertficateData = [
     issuer: "Google",
     issueDate: "March 6, 2025",
     image: cert4,
-    skills: ["Spreadsheet", "Data Integrity", "Sample Size Determination", "SQL", "Data Cleansing"],
+    skills: ["Data Processing", "SQL", "Data Transformation", "Data Quality", "Sample Size Determination", "Data Analysis", "Data Validation", "Data Cleansing", "Data Integrity", "Sampling(Statistics)", "Spreadsheet Software"],
     link: "https://www.coursera.org/account/accomplishments/verify/3UMMUKL1DH94"
   },
   {
@@ -59,7 +59,7 @@ const CertficateData = [
     issuer: "Google",
     issueDate: "June 13, 2025",
     image: cert6,
-    skills: ["Reactjs", "Java", "Nodejs"],
+    skills: ["Data Literacy", "Dashboard", "Stakeholder Engagement", "Data Presentation", "Data Storytelling", "Data Literacy", "Presentations", "Data Analysis", "Data Visualization", "Tableau Software", "Web Content Accessibility Guidelines"],
     link: "https://www.coursera.org/account/accomplishments/verify/PV9S8IT52EG2"
   },
   {
@@ -68,44 +68,68 @@ const CertficateData = [
     issuer: "Google",
     issueDate: "June 28, 2025",
     image: cert7,
-    skills: ["Reactjs", "Java", "Nodejs"],
+    skills: ["Data Structures", "Tidyverse (R Package)", "R (Software)", "Data Visualization", "R Programming", "Data Manipulation", "Package and Software Management", "Data Analysis", "Data Cleansing", "Rmarkdown", "Ggplot2", "Statistical Programming"],
     link: "https://www.coursera.org/account/accomplishments/verify/CMVU3RV94X7S"
   },
 ]
 
 export function CertificatePage() {
   return (
-    <>
-      <div className="Certificatepage">
-        <h2>-My Certificates</h2>
-        <div className="Cert-grid">
-          {CertficateData.map((cert) => (
-            <div className="Cert-card">
-              <div key={cert.id} className="certsecone">
+    <div className="Certificatepage">
+      <h2>-My Certificates</h2>
+
+      <div className="Cert-grid">
+        {CertficateData.map((cert) => {
+
+          const MAX_SKILLS = 5
+          const visibleSkills = cert.skills.slice(0, MAX_SKILLS)
+          const remaining = cert.skills.length - MAX_SKILLS
+
+          return (
+            <div key={cert.id} className="Cert-card">
+
+              <div className="certsecone">
                 <div className="certimage">
-                  <img src={cert.image} alt="" className="certimage" />
+                  <img src={cert.image} alt={cert.title} />
                 </div>
+
                 <div className="certsectwo">
                   <h3>{cert.title}</h3>
                   <h4>{cert.issuer}</h4>
                   <h4>{cert.issueDate}</h4>
                 </div>
               </div>
+
               <div className="certsecthree">
-                <h4>{cert.description}</h4>
+
                 <div className="skills">
-                  {cert.skills.map((skill, index) => (
+                  {visibleSkills.map((skill, index) => (
                     <span key={index} className="skill-badge">
                       {skill}
                     </span>
                   ))}
+
+                  {remaining > 0 && (
+                    <span className="skill-badge more">
+                      +{remaining}
+                    </span>
+                  )}
                 </div>
-                <a href={cert.link} target="_blank" className="CertBtn">Veiw Certificate</a>
+
+                <a
+                  href={cert.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="CertBtn"
+                >
+                  View Certificate
+                </a>
+
               </div>
             </div>
-          ))}
-        </div>
+          )
+        })}
       </div>
-    </>
+    </div>
   )
 }

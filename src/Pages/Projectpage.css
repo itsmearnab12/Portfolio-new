@@ -1,5 +1,5 @@
 .Projectpage {
-    margin: 70px 200px;
+    margin: 70px 160px;
 }
 
 .Projectpage h5 {
@@ -23,6 +23,7 @@
     color: gray;
     font-size: 1rem;
     font-weight: 300;
+    padding: 0;
 }
 
 .projects-grid {
@@ -42,17 +43,21 @@
 
     .Projectpage h5,
     .Projectpage h4 {
-        margin: 20px 10px;
+        margin: 20px 0;
+        font-size: 18px;
         text-align: left;
+        padding: 0;
     }
 
     .Projectpage h2 {
-        margin: 20px 10px;
-        font-size: 1.5rem;
+        margin: 20px 0;
+        font-size: 2.2rem;
         text-align: left;
+        padding: 0
     }
-    .Project{
+
+    .Project {
         margin: 0 0 30px 0;
     }
-    
+
 }
