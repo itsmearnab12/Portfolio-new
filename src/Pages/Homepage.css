@@ -195,8 +195,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 35px 10px;
-    font-size: 2rem;
+    margin: 35px 0;
 }
 
 .projectpage a {
