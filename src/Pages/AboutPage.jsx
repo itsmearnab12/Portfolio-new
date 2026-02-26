@@ -40,7 +40,7 @@ export function AboutPage() {
                         I actively refine my projects by revisiting design decisions, optimizing performance, and improving clarity. This iterative mindset helps me deliver better results and grow consistently as a developer.
                     </h3>
                 </div>
-                <button className="Resume"><IoDocumentTextOutline />View Resume</button>
+                <button className="Resume" onClick={() => window.open("/Arnab.pdf", "_blank")}><IoDocumentTextOutline />View Resume</button>
             </div>
 
         </>

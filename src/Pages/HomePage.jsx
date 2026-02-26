@@ -31,7 +31,7 @@ export function HomePage() {
                         </h1>
                         <h4>I’m a third-year BCA (Hons.) student at Parul University with a strong interest in software development. I enjoy turning ideas into real-world applications and have a growing passion for working with data.</h4>
                         <div className="Button">
-                            <button className="Resumebutton"><IoDocumentTextOutline />View Resume</button>
+                            <button className="Resumebutton" onClick={() => window.open("/Arnab.pdf", "_blank")}><IoDocumentTextOutline />View Resume</button>
                             <button onClick={() => navigate("/Project")} className="Myworkbutton">My Work <FaArrowRightLong /></button>
                         </div>
                         <div className="Homesocialmedia">
@@ -141,7 +141,7 @@ export function HomePage() {
                     Have an idea, a project, or an opportunity in mind? I’m always open to discussing new work, collaborations, or just having a friendly conversation.
                 </h4>
                 <div className="Buttons">
-                    <button className="btn"><IoDocumentTextOutline /><span>View Resume</span></button>
+                    <button className="btn" onClick={() => window.open("/Arnab.pdf", "_blank")}><IoDocumentTextOutline /><span>View Resume</span></button>
                     <button className="btn Msgbutton" onClick={() => navigate("/Contact")}><LuMessageSquareText /><span>Send Me Message</span></button>
                 </div>
                 <div class="working-wrapper">
